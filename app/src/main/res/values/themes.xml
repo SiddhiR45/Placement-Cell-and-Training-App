@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.Project_patt" parent="Theme.MaterialComponents.DayNight">
+        <!-- Customize your theme here -->
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">@color/teal</item> <!-- Change action bar color -->
+        <item name="colorPrimaryDark">@color/light_gray</item> <!-- Status bar color (dark variant) -->
+        <item name="colorAccent">@color/teal</item> <!-- Accent color -->
+        <item name="android:windowBackground">@color/light_gray</item> <!-- Window background color -->
+        <item name="android:textColorPrimary">@color/black</item> <!-- Primary text color -->
+        <item name="android:textColorSecondary">@color/white</item> <!-- Secondary text color -->
+        <item name="android:colorControlHighlight">@color/teal</item> <!-- Highlight color for controls -->
+        <item name="android:itemBackground">@drawable/menu_item_background</item> <!-- Menu item background -->
+    </style>
+
+    <!-- Dialog Theme -->
+    <style name="Theme.Project_patt.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowMinWidthMajor">88%</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+</resources>

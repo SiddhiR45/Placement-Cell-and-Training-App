@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Add Job"
+        android:id="@+id/addjob"
+        android:icon="@drawable/bag"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Chat"
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/chat"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Add Study"
+        android:id="@+id/addstudyFragment"
+        android:icon="@drawable/study"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="User data"
+        android:id="@+id/userdataFragment"
+        android:icon="@drawable/userdata"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Profile"
+        android:id="@+id/adminprofile"
+        android:icon="@drawable/profile"/>
+
+</menu>

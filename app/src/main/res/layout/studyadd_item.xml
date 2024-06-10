@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <!-- Container for the study information -->
+
+        <!-- Study Type TextView -->
+        <TextView
+            android:id="@+id/textView_study_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Study Type:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Course Name TextView -->
+        <TextView
+            android:id="@+id/textView_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Name:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Study Link TextView -->
+        <TextView
+            android:id="@+id/textView_study_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Study Link:"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_link"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- WebView for displaying study material -->
+        <WebView
+            android:id="@+id/webView_file"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/outline"
+            android:elevation="2dp"
+            android:padding="8dp"
+            tools:ignore="WebViewLayout" />
+
+</LinearLayout>

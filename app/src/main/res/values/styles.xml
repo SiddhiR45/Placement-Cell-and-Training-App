@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item> <!-- Action bar color -->
+        <item name="colorPrimaryDark">@color/white</item> <!-- Status bar color -->
+        <item name="colorAccent">#FF4081</item> <!-- Accent color --><!-- Background color -->
+        <item name="android:windowBackground">@color/white</item> <!-- Background color -->
+    </style>
+    <style name="MyTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <!-- Customize other attributes as needed -->
+        <item name="boxBackgroundColor">@color/white</item>
+    </style>
+
+        <!-- Outlined button style -->
+        <style name="OutlinedButton">
+            <item name="android:textSize">16sp</item>
+            <item name="android:textColor">@color/colorPrimary</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:paddingVertical" tools:targetApi="o">12dp</item>
+            <item name="android:paddingHorizontal" tools:targetApi="o">16dp</item>
+            <item name="android:background">@drawable/outline</item>
+        </style>
+
+
+
+
+
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowDetailsFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="51dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer operator"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtcompany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="abc west,mumbai" />
+            <TextView
+                android:id="@+id/txtLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abc west,mumbai" />
+            <TextView
+                android:id="@+id/txtsalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9000-11000 per month" />
+            <TextView
+                android:id="@+id/txtExp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0-2 years experience in IT/Hardware" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_weight="0.555"
+                android:background="@drawable/border"
+                android:text="verified"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.555"
+                android:background="@drawable/border"
+                android:text="verified"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.555"
+                android:background="@drawable/border"
+                android:text="verified"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.555"
+                android:background="@drawable/border"
+                android:text="verified"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="280dp"
+            android:background="@color/green"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Job Highlight"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtHighlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="12 th pass and above\njob benefits:Meal\n09:00AM - 06:00PM | 6 days working"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:layout_marginTop="440dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Job discription."
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Resolve system malfuntions,and provide technical information.\nInstallation,configuration\nProvide technical support"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="610dp"
+            android:background="@drawable/rounded_button_background"
+            android:text="APPLY" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
